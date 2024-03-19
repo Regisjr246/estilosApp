@@ -113,11 +113,18 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: 'white'
     },
-    footer:{
-
+    footer: {
+        borderTopWidth: 0.2,
+        backgroundColor: 'white',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        paddingVertical: 10
     },
-    footerIcon:{
+    footerIcon: {
 
+        width:30,
+        height:30
     }
 
 });
